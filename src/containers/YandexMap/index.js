@@ -36,8 +36,8 @@ class YandexMap extends Component {
 
   init = () => {
     this.state.myMap = new ymaps.Map('yandexMap', {
-      center: [54.314192, 48.403123],
-      zoom: 14,
+      center: [55.753215, 37.622504],
+      zoom: 13,
       controls: []
     });
 

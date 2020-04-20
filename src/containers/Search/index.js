@@ -116,7 +116,7 @@ class Search extends Component {
       },
       {
         preset: 'islands#circleDotIcon',
-        iconColor: 'blue',
+        iconColor: 'red',
         draggable: true
       }
     );
