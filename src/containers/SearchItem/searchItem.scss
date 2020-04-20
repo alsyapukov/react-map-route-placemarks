@@ -1,0 +1,30 @@
+.search-item {
+  position: relative;
+  width: 100%;
+  padding: 10px 30px 10px 10px;
+  line-height: 20px;
+  border: 1px solid #d8d8d8;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+
+  &__remove {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .remove__icon {
+      width: 14px;
+      height: 14px;
+      background-image: url(~assets/img/close.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}

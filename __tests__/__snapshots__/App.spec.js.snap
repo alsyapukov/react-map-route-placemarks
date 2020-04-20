@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App component render App component 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="app__wrap"
+  >
+    <div
+      className="edit-route"
+    >
+      <div
+        className="edit-route__options"
+      >
+        <div
+          className="search"
+        >
+          <div
+            className="search__textbox"
+          >
+            <div
+              className="textbox"
+            >
+              <input
+                className="textbox__inner"
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            className="search__list"
+          >
+            <ul />
+          </div>
+        </div>
+      </div>
+      <div
+        className="edit-route__map"
+      >
+        <div
+          className="yandex-map"
+        >
+          <div
+            id="yandexMap"
+          >
+            <div
+              className="yandex-map__loading"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

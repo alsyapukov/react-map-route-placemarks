@@ -1,0 +1,32 @@
+.search {
+  width: 100%;
+
+  &__textbox {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #fff;
+    padding-bottom: 20px;
+  }
+  &__list {
+    max-height: 100%;
+    position: relative;
+    overflow: auto;
+  }
+}
+.balloon {
+  display: inline-block;
+  padding: 20px;
+  min-height: 75px;
+  position: relative;
+  bottom: 80px;
+  left: 0;
+  width: 200px;
+  max-width: 250px;
+  color: #333333;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  .baloon__close {
+    margin-top: -3px;
+  }
+}

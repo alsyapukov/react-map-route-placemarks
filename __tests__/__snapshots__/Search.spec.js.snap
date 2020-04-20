@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Search component renders Search component 1`] = `
+<div
+  className="search"
+>
+  <div
+    className="search__textbox"
+  >
+    <div
+      className="textbox"
+    >
+      <input
+        className="textbox__inner"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="search__list"
+  >
+    <ul />
+  </div>
+</div>
+`;
